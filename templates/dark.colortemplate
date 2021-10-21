@@ -1,0 +1,83 @@
+Full name: Kaninchenhaus
+Short name: kaninchenhaus
+Author: Shotaro Tsuji <Shotaro.Tsuji@gmail.com>
+
+Variant: gui 256
+Background: dark
+
+; Basic color definitions
+Color: darkblack	rgb(22,24,33)		234
+Color: darkred		rgb(178,108,108)	131
+Color: darkgreen	rgb(61,90,66)		65
+Color: darkyellow	rgb(212,143,77)		136
+Color: darkblue		rgb(35,92,158)		24
+Color: darkpurple	rgb(86,75,128)		60
+Color: darkcyan		rgb(115,144,168)	110
+Color: darkwhite	rgb(198,200,209)	251
+Color: brightblack	rgb(107,112,137)	242
+Color: brightred	rgb(245,212,212)	181
+Color: brightgreen	rgb(136,188,169)	108
+Color: brightyellow	rgb(244,216,160)	222
+Color: brightblue	rgb(145,175,235)	68
+Color: brightpurple	rgb(145,131,198)	103
+Color: brightcyan	rgb(168,218,236)	153
+Color: brightwhite	rgb(210,212,222)	253
+
+Color: pmenublack	rgb(18,18,18)		233
+Color: bright2green	rgb(135,215,135)	114
+Color: dark2blue	rgb(0,0,95)		17
+
+Term colors: darkblack darkred darkgreen darkyellow
+Term colors: darkblue darkpurple darkcyan darkwhite
+Term colors: brightblack brightred brightgreen brightyellow
+Term colors: brightblue brightpurple brightcyan brightwhite
+
+; TODO
+; highlight groups
+SpecialKey	brightcyan	darkblack
+NonText		darkblue	darkblack
+Directory 	darkcyan 	darkblack
+ErrorMsg	brightred	darkred
+Search		brightblack	brightgreen
+MoreMsg		brightgreen	darkblack	bold
+LineNr		darkyellow	darkblack
+CursorLineNr	darkyellow	darkblack	underline
+Question	brightgreen	darkblack
+StatusLine	darkblack	darkgreen	bold
+StatusLineNC	darkblack	darkgreen
+VertSplit	brightblack	darkblack
+Title		brightred	darkblack
+Visual		darkwhite	brightblack
+VisualNOS	darkwhite	darkblack	bold	underline
+WarningMsg	brightred	darkblack
+WildMenu	darkwhite	brightgreen
+Folded		darkwhite	darkgreen
+FoldColumn	darkpurple	darkblack
+DiffAdd		darkblack	brightgreen
+DiffChange	darkblack	darkyellow
+DiffDelete	darkblack	darkred
+DiffText	brightblack	brightyellow
+SignColumn	darkpurple	darkblack
+SpellBad	brightwhite	brightred
+SpellCap	brightblack	brightcyan
+SpellRare	darkwhite	brightpurple
+SpellLocal	darkwhite	brightblue
+Pmenu		darkwhite	darkblue
+PmenuSel	darkwhite	dark2blue	bold
+ColorColumn	darkwhite	darkred
+StatusLineTerm	darkblack	brightgreen	bold
+StatusLineTermNC darkblack	brightgreen
+
+Normal		darkwhite	darkblack
+MatchParen	darkwhite	darkblue
+Comment		darkgreen	darkblack
+Constant	brightred	darkblack
+Special		darkred		darkblack
+Identifier	darkcyan	darkblack
+Statement	darkyellow	darkblack
+PreProc		brightpurple	darkblack	
+Type		brightgreen	darkblack
+Underlined	brightcyan	darkblack	underline
+Ignore		brightblack	darkblack
+Error		brightred	darkred
+Todo		darkcyan	darkblue
