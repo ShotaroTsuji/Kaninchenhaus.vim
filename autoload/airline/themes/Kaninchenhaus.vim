@@ -39,4 +39,4 @@ let g:airline#themes#Kaninchenhaus#palette.terminal.airline_term = ['#88bca9', '
 let g:airline#themes#Kaninchenhaus#palette.inactive.airline_term = ['#88bca9', '#161821', '108', '234']
 
 let s:airline_c_commandline = [ '#9cffd3' , '#202020' , 85  , 234 ]
-let g:airline#themes#dark#palette.commandline = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_commandline)
+let g:airline#themes#Kaninchenhaus#palette.commandline = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_commandline)
