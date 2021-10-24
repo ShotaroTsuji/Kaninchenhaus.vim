@@ -83,3 +83,41 @@ Underlined	brightcyan	omit		underline
 Ignore		brightblack	omit
 Error		brightred	darkred
 Todo		darkcyan	darkblue
+
+; theme for vim-airline
+auxfile autoload/airline/themes/@shortname.vim
+scriptencoding utf-8
+
+let g:airline#themes#@shortname#palette = {}
+
+let s:airline_a_normal   = ['@guidarkblack', '@guidarkgreen', '@term256darkblack', '@term256darkgreen']
+let s:airline_b_normal   = ['@guidarkwhite', '@guibrightblack', '@term256darkwhite', '@term256brightblack']
+let s:airline_c_normal   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhite', '@term256darkblack']
+let g:airline#themes#@shortname#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
+
+let s:airline_a_insert   = ['@guidarkblack', '@guibrightblue', '@term256darkblack', '@term256brightblue']
+let s:airline_b_insert   = ['@guidarkwhite', '@guibrightblack', '@term256darkwhite', '@term256brightblack']
+let s:airline_c_insert   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhite', '@term256darkblack']
+let g:airline#themes#@shortname#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
+
+let s:airline_a_replace   = ['@guidarkblack', '@guidarkyellow', '@term256darkblack', '@term256darkyellow']
+let s:airline_b_replace   = ['@guidarkwhite', '@guibrightblack', '@term256darkwhite', '@term256brightblack']
+let s:airline_c_replace   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhite', '@term256darkblack']
+let g:airline#themes#@shortname#palette.replace = airline#themes#generate_color_map(s:airline_a_replace, s:airline_b_replace, s:airline_c_replace)
+
+let s:airline_a_visual   = ['@guidarkblack', '@guibrightred', '@term256darkblack', '@term256brightred']
+let s:airline_b_visual   = ['@guidarkwhite', '@guibrightblack', '@term256darkwhite', '@term256brightblack']
+let s:airline_c_visual   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhite', '@term256darkblack']
+let g:airline#themes#@shortname#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
+
+" Inacitve mode settings are copied from `dark.vim`
+let s:airline_a_inactive = [ '#4e4e4e' , '#1c1c1c' , 239 , 234 , '' ]
+let s:airline_b_inactive = [ '#4e4e4e' , '#262626' , 239 , 235 , '' ]
+let s:airline_c_inactive = [ '#4e4e4e' , '#303030' , 239 , 236 , '' ]
+let g:airline#themes#@shortname#palette.inactive = airline#themes#generate_color_map(s:airline_a_inactive, s:airline_b_inactive, s:airline_c_inactive)
+
+let s:airline_a_terminal   = ['@guidarkblack', '@guidarkpurple', '@term256darkblack', '@term256darkpurple']
+let s:airline_b_terminal   = ['@guidarkwhite', '@guibrightblack', '@term256darkwhite', '@term256darkwhite']
+let s:airline_c_terminal   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhite', '@term256darkblack']
+let g:airline#themes#@shortname#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
+endauxfile
