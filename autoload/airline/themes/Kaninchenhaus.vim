@@ -32,3 +32,11 @@ let s:airline_a_terminal   = ['#161821', '#564b80', '234', '60']
 let s:airline_b_terminal   = ['#c6c8d1', '#6b7089', '251', '251']
 let s:airline_c_terminal   = ['#c6c8d1', '#161821', '251', '234']
 let g:airline#themes#Kaninchenhaus#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
+
+let g:airline#themes#Kaninchenhaus#palette.normal.airline_term = ['#88bca9', '#161821', '108', '234']
+let g:airline#themes#Kaninchenhaus#palette.visual.airline_term = ['#88bca9', '#161821', '108', '234']
+let g:airline#themes#Kaninchenhaus#palette.terminal.airline_term = ['#88bca9', '#161821', '108', '234']
+let g:airline#themes#Kaninchenhaus#palette.inactive.airline_term = ['#88bca9', '#161821', '108', '234']
+
+let s:airline_c_commandline = [ '#9cffd3' , '#202020' , 85  , 234 ]
+let g:airline#themes#dark#palette.commandline = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_commandline)
