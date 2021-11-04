@@ -24,6 +24,7 @@ Color: brightcyan	rgb(168,218,236)	153
 Color: brightwhite	rgb(210,212,222)	253
 
 Color: pmenublack	rgb(48,48,48)		236
+Color: commentblack	rgb(148,148,148)	246
 Color: bright2green	rgb(135,215,135)	114
 Color: dark2blue	rgb(0,0,95)		17
 
@@ -72,7 +73,7 @@ StatusLineTerm	darkblack	brightgreen	bold
 StatusLineTermNC darkblack	brightgreen
 
 MatchParen	darkwhite	darkblue
-Comment		brightblack	omit
+Comment		commentblack	omit
 Constant	brightred	omit
 Special		darkred		omit	
 Identifier	darkcyan	omit
