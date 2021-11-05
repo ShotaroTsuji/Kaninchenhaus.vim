@@ -34,9 +34,20 @@ let s:airline_c_terminal   = ['#c6c8d1', '#161821', '251', '234']
 let g:airline#themes#Kaninchenhaus#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
 
 let g:airline#themes#Kaninchenhaus#palette.normal.airline_term = ['#88bca9', '#161821', '108', '234']
+let g:airline#themes#Kaninchenhaus#palette.insert.airline_term = ['#88bca9', '#161821', '108', '234']
 let g:airline#themes#Kaninchenhaus#palette.visual.airline_term = ['#88bca9', '#161821', '108', '234']
 let g:airline#themes#Kaninchenhaus#palette.terminal.airline_term = ['#88bca9', '#161821', '108', '234']
 let g:airline#themes#Kaninchenhaus#palette.inactive.airline_term = ['#88bca9', '#161821', '108', '234']
+
+let g:airline#themes#Kaninchenhaus#palette.normal.airline_warning = ['#161821', '#d48f4d', '234', '136']
+let g:airline#themes#Kaninchenhaus#palette.insert.airline_warning = ['#161821', '#d48f4d', '234', '136']
+let g:airline#themes#Kaninchenhaus#palette.visual.airline_warning = ['#161821', '#d48f4d', '234', '136']
+let g:airline#themes#Kaninchenhaus#palette.terminal.airline_warning = ['#161821', '#d48f4d', '234', '136']
+
+let g:airline#themes#Kaninchenhaus#palette.normal.airline_error = ['#161821', '#b26c6c', '234', '131']
+let g:airline#themes#Kaninchenhaus#palette.insert.airline_error = ['#161821', '#b26c6c', '234', '131']
+let g:airline#themes#Kaninchenhaus#palette.visual.airline_error = ['#161821', '#b26c6c', '234', '131']
+let g:airline#themes#Kaninchenhaus#palette.terminal.airline_error = ['#161821', '#b26c6c', '234', '131']
 
 let s:airline_c_commandline = [ '#88bca9', '#161821' , 108, 234]
 let g:airline#themes#Kaninchenhaus#palette.commandline = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_commandline)

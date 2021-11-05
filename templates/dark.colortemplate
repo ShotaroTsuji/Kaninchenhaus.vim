@@ -123,9 +123,20 @@ let s:airline_c_terminal   = ['@guidarkwhite', '@guidarkblack', '@term256darkwhi
 let g:airline#themes#@shortname#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
 
 let g:airline#themes#@shortname#palette.normal.airline_term = ['@guibrightgreen', '@guidarkblack', '@term256brightgreen', '@term256darkblack']
+let g:airline#themes#@shortname#palette.insert.airline_term = ['@guibrightgreen', '@guidarkblack', '@term256brightgreen', '@term256darkblack']
 let g:airline#themes#@shortname#palette.visual.airline_term = ['@guibrightgreen', '@guidarkblack', '@term256brightgreen', '@term256darkblack']
 let g:airline#themes#@shortname#palette.terminal.airline_term = ['@guibrightgreen', '@guidarkblack', '@term256brightgreen', '@term256darkblack']
 let g:airline#themes#@shortname#palette.inactive.airline_term = ['@guibrightgreen', '@guidarkblack', '@term256brightgreen', '@term256darkblack']
+
+let g:airline#themes#@shortname#palette.normal.airline_warning = ['@guidarkblack', '@guidarkyellow', '@term256darkblack', '@term256darkyellow']
+let g:airline#themes#@shortname#palette.insert.airline_warning = ['@guidarkblack', '@guidarkyellow', '@term256darkblack', '@term256darkyellow']
+let g:airline#themes#@shortname#palette.visual.airline_warning = ['@guidarkblack', '@guidarkyellow', '@term256darkblack', '@term256darkyellow']
+let g:airline#themes#@shortname#palette.terminal.airline_warning = ['@guidarkblack', '@guidarkyellow', '@term256darkblack', '@term256darkyellow']
+
+let g:airline#themes#@shortname#palette.normal.airline_error = ['@guidarkblack', '@guidarkred', '@term256darkblack', '@term256darkred']
+let g:airline#themes#@shortname#palette.insert.airline_error = ['@guidarkblack', '@guidarkred', '@term256darkblack', '@term256darkred']
+let g:airline#themes#@shortname#palette.visual.airline_error = ['@guidarkblack', '@guidarkred', '@term256darkblack', '@term256darkred']
+let g:airline#themes#@shortname#palette.terminal.airline_error = ['@guidarkblack', '@guidarkred', '@term256darkblack', '@term256darkred']
 
 let s:airline_c_commandline = [ '@guibrightgreen', '@guidarkblack' , @term256brightgreen, @term256darkblack]
 let g:airline#themes#@shortname#palette.commandline = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_commandline)
