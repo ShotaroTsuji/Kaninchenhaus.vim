@@ -26,3 +26,7 @@ let g:airline_theme='Kaninchenhaus'
 It requires [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate) plugin.
 
 After installing the plugin, you can build the colorscheme by executing `make`.
+
+## License
+
+[Vim license](https://www.gnu.org/licenses/vim-license.txt)
