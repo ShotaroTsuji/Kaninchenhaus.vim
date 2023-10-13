@@ -27,6 +27,11 @@ It requires [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate)
 
 After installing the plugin, you can build the colorscheme by executing `make`.
 
+## Screenshots
+
+![image](https://github.com/ShotaroTsuji/Kaninchenhaus.vim/assets/340893/ac9d23e4-175c-41b1-9823-02683a9e9c34)
+
+
 ## License
 
 [Vim license](https://www.gnu.org/licenses/vim-license.txt)
